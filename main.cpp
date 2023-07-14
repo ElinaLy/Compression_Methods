@@ -154,49 +154,15 @@ int main()
 	if (newf.is_open())
 	{
 		
-		
-		srand(time(0));
+		//srand(time(0));
 		cout << "1 option : Huffman Algorithm!\n";
 		Huffman(newf, content);
 		cout << "\n! 2 option : LZW Algorithm!\n";
 		lzw(newf, content);
 		cout << "\n! 3 option : LZ78 Algorithm!\n";
 		lz78(newf, content);
-		cout << "runtime = " << clock() / 1000.0 << endl;
+		//cout << "runtime = " << clock() / 1000.0 << endl;
 
-		
-		//string artem = 
-		//ifstream j;
-		//j.open("f1.txt");
-		//string symbols, s2;
-		//while (getline(j, symbols)) {
-		//	s2 += symbols;
-		//}
-		//j.close();
-		////cout << "\ns2 = " << s2 << endl;
-		////cout << "\nartem = " << artem << endl;
-		//if (sizeof(artem) == sizeof(s2)) {
-		//	for (int i = 0; i < s2.length(); i++) {
-		//		if (artem[i] != s2[i]) {
-		//			
-
-		//			//cout << "\nfalse\n";
-		//		}
-		//	
-		//	}
-		//	cout << "\n\ttrue\n";
-		//}
-		//
-
-		//
-
-
-		
-		
-
-		
-
-		
 		
 	}
 	newf.close();
