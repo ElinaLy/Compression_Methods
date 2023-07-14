@@ -121,17 +121,17 @@ int main()
 	setlocale(LC_ALL, "rus");
     int lines;
 	 
-	cout << "Enter the amount of lines in file\n";
+	cout << "Enter the number of lines in a file\n";
 	cin >> lines;
 	ofstream gf;
-	gf.open("f1.txt");      // открываем файл для записи
+	gf.open("f1.txt");      
 
 	if (gf.is_open())
 	{
 		writefile(gf, lines);
 	}
 	gf.close();
-    uintmax_t fileSize = std::filesystem::file_size("f1.txt"); // определение размера файла
+    uintmax_t fileSize = std::filesystem::file_size("f1.txt"); 
     cout << "Размер файла: " << fileSize << " байт" << endl;
 
 	ifstream in("f1.txt"); // read file
