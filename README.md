@@ -6,5 +6,13 @@ Compression methods: LZW, Huffman, LZ78
 (рассчитывается вероятность появления каждого символа в строке,
 на основе вероятности генерироуется шифр этого символа (длинный или короткий)).
 
+
+Huffman: https://habr.com/ru/companies/otus/articles/497566/
+LZW: https://habr.com/ru/companies/otus/articles/581728/
+LZ78: https://mf.grsu.by/UchProc/livak/po/comprsite/theory_lz78.html
+
 Проанализировав эти три способа по результатам сжатия и по времени работы, можно сделать вывод,
 что LZW имеет лучшие характеристики: работает быстро, сжимает много :).
+
+![Степень сжатия разных методов](/Compression.png)
+![Время работы алгоритмов](/Runtime.png)
