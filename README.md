@@ -8,7 +8,9 @@ Compression methods: LZW, Huffman, LZ78
 
 
 Huffman: https://habr.com/ru/companies/otus/articles/497566/
-\nLZW: https://habr.com/ru/companies/otus/articles/581728/
+
+LZW: https://habr.com/ru/companies/otus/articles/581728/
+
 \nLZ78: https://mf.grsu.by/UchProc/livak/po/comprsite/theory_lz78.html
 
 Проанализировав эти три способа по результатам сжатия и по времени работы, можно сделать вывод,
